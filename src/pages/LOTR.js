@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getCharaters } from '../../redux/lotr/actions';
-import CardList from './CardList';
+import { getCharaters } from '../redux/lotr/actions';
+import CardList from '../components/CardList';
 
 const LOTR = () => {
   const dispatch = useDispatch();

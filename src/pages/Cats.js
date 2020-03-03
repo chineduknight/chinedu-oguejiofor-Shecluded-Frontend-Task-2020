@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Row, Pagination } from 'antd';
 import { useDispatch, useSelector } from 'react-redux';
-import { getCats, openModal, setCurrent } from '../../redux/cats/actions';
-import Modal from '../layout/Modal';
+import { getCats, openModal, setCurrent } from '../redux/cats/actions';
+import Spinner from '../components/Spinner';
+import Modal from '../components/Modal';
 
 const Cats = () => {
   const dispatch = useDispatch();
@@ -10,7 +11,7 @@ const Cats = () => {
     dispatch(getCats());
     // eslint-disable-next-line
   }, []);
-  const { cats } = useSelector(state => state.cats);
+  const { cats, loading } = useSelector(state => state.cats);
 
   const [currentPage, setCurrentPage] = useState(1);
   const [catsPerPage] = useState(6);
@@ -37,7 +38,9 @@ const Cats = () => {
               breeds: [catDetails]
             } = cat;
 
-            return (
+            return loading ? (
+              <Spinner />
+            ) : (
               <Col key={cat.id} className='gutter-row' span={8}>
                 <div className='collection-item'>
                   <div

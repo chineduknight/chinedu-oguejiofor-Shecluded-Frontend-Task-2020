@@ -1,7 +1,7 @@
 import React from 'react';
 import { Modal, Card, Rate } from 'antd';
 import { useSelector, useDispatch } from 'react-redux';
-import { closeModal } from '../../redux/cats/actions';
+import { closeModal } from '../redux/cats/actions';
 const { Meta } = Card;
 const InfoModal = () => {
   const visible = useSelector(state => state.cats.showModal);

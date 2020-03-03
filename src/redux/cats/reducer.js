@@ -12,7 +12,8 @@ const initialState = {
   lotr: null,
   error: null,
   current: null,
-  showModal: false
+  showModal: false,
+  loading: true
 };
 
 export default (state = initialState, action) => {
@@ -21,12 +22,14 @@ export default (state = initialState, action) => {
     case GET_CATS_SUCCESS:
       return {
         ...state,
-        cats: payload
+        cats: payload,
+        loading: false
       };
     case GET_CATS_ERROR:
       return {
         ...state,
-        error: payload
+        error: payload,
+        loading: false
       };
     case OPEN_MODAL:
       return {
