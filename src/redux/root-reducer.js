@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import itemsReducer from './cats/reducer';
+import catsReducer from './cats/reducer';
+import lotrReducer from './lotr/reducer';
 
 export default combineReducers({
-  items: itemsReducer
+  cats: catsReducer,
+  lotr: lotrReducer
 });

@@ -12,4 +12,7 @@ const lotrAPI = axios.create({
   baseURL: LOTR_API,
   timeout: 30000
 });
+lotrAPI.defaults.headers.common = {
+  Authorization: `bearer LNp14nSl9dUIXi7vPi0y`
+};
 export { lotrAPI, catsAPI };

@@ -10,7 +10,7 @@ const Cats = () => {
     dispatch(getCats());
     // eslint-disable-next-line
   }, []);
-  const { cats } = useSelector(state => state.items);
+  const { cats } = useSelector(state => state.cats);
 
   const [currentPage, setCurrentPage] = useState(1);
   const [catsPerPage] = useState(6);

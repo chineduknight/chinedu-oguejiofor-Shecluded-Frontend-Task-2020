@@ -1,11 +1,11 @@
 import React from 'react';
-import { Modal, Card } from 'antd';
+import { Modal, Card, Rate } from 'antd';
 import { useSelector, useDispatch } from 'react-redux';
 import { closeModal } from '../../redux/cats/actions';
 const { Meta } = Card;
 const InfoModal = () => {
-  const visible = useSelector(state => state.items.showModal);
-  const current = useSelector(state => state.items.current);
+  const visible = useSelector(state => state.cats.showModal);
+  const current = useSelector(state => state.cats.current);
   const dispatch = useDispatch();
   const handleOk = () => {
     dispatch(closeModal());
@@ -26,9 +26,18 @@ const InfoModal = () => {
             <div style={{ marginTop: '10px' }}>
               <p>Temperament: {current.temperament} </p>
               <p>Life Span:{current.life_span}</p>
-              <p>Shedding Level:{current.shedding_level}</p>
-              <p>Dog Friendly:{current.dog_friendly}</p>
-              <p>Child Friendly:{current.child_friendly}</p>
+              <p>
+                Shedding Level:{'  '}
+                <Rate disabled defaultValue={current.shedding_level} />
+              </p>
+              <p>
+                Dog Friendly: {'  '}
+                <Rate disabled defaultValue={current.dog_friendly} />
+              </p>
+              <p>
+                Child Friendly:{' '}
+                <Rate disabled defaultValue={current.child_friendly} />
+              </p>
             </div>
           </Card>
         )}

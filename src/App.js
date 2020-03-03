@@ -5,9 +5,9 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NavBar from './components/layout/Navbar';
-import Register from './components/auth/Register';
 import Cats from './components/pages/Cats';
 import LOTR from './components/pages/LOTR';
+import Landing from './components/layout/Landing';
 const App = () => {
   return (
     <Provider store={store}>
@@ -15,6 +15,7 @@ const App = () => {
         <NavBar />
         <div className='container'>
           <Switch>
+            <Route exact path='/' component={Landing} />
             <Route exact path='/cats' component={Cats} />
             <Route exact path='/lotr' component={LOTR} />
           </Switch>
