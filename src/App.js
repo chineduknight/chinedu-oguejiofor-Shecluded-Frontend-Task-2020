@@ -16,6 +16,11 @@ const App = () => {
         <div className='container'>
           <Switch>
             <Route exact path='/' component={Homepage} />
+            <Route
+              exact
+              path='/chinedu-oguejiofor-Shecluded-Frontend-Task-2020'
+              component={Homepage}
+            />
             <Route exact path='/cats' component={Cats} />
             <Route exact path='/lotr' component={LOTR} />
           </Switch>

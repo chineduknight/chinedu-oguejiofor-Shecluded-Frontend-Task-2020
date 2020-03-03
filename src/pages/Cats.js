@@ -14,7 +14,7 @@ const Cats = () => {
   const { cats, loading } = useSelector(state => state.cats);
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [catsPerPage] = useState(6);
+  const [catsPerPage] = useState(9);
 
   const indexOfLastPost = currentPage * catsPerPage;
   const indexOfFirstPost = indexOfLastPost - catsPerPage;
