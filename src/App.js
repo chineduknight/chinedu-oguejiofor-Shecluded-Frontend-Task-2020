@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import 'antd/dist/antd.css';
+import './App.scss';
+import { Provider } from 'react-redux';
+import store from './redux/store';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import NavBar from './components/layout/Navbar';
+import Register from './components/auth/Register';
+import Cats from './components/pages/Cats';
+import LOTR from './components/pages/LOTR';
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <Router>
+        <NavBar />
+        <div className='container'>
+          <Switch>
+            <Route exact path='/cats' component={Cats} />
+            <Route exact path='/lotr' component={LOTR} />
+          </Switch>
+        </div>
+      </Router>
+    </Provider>
   );
-}
+};
 
 export default App;
