@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/precache-manifest.08666b34b19e0cb883df806439e803b0.js"
+  "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/precache-manifest.e6a19e8ad697c1cf2ab01d1958731de9.js"
 );
 
 self.addEventListener('message', (event) => {

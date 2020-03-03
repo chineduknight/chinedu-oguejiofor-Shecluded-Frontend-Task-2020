@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/css/main.17e6543e.chunk.css",
-    "main.js": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/js/main.99e1227c.chunk.js",
-    "main.js.map": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/js/main.99e1227c.chunk.js.map",
+    "main.css": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/css/main.7438f5b0.chunk.css",
+    "main.js": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/js/main.fb6e107e.chunk.js",
+    "main.js.map": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/js/main.fb6e107e.chunk.js.map",
     "runtime-main.js": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/js/runtime-main.3e96dbc7.js",
     "runtime-main.js.map": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/js/runtime-main.3e96dbc7.js.map",
     "static/css/2.03d7f783.chunk.css": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/css/2.03d7f783.chunk.css",
     "static/js/2.b0ad78db.chunk.js": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/js/2.b0ad78db.chunk.js",
     "static/js/2.b0ad78db.chunk.js.map": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/js/2.b0ad78db.chunk.js.map",
     "index.html": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/index.html",
-    "precache-manifest.08666b34b19e0cb883df806439e803b0.js": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/precache-manifest.08666b34b19e0cb883df806439e803b0.js",
+    "precache-manifest.e6a19e8ad697c1cf2ab01d1958731de9.js": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/precache-manifest.e6a19e8ad697c1cf2ab01d1958731de9.js",
     "service-worker.js": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/service-worker.js",
     "static/css/2.03d7f783.chunk.css.map": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/css/2.03d7f783.chunk.css.map",
-    "static/css/main.17e6543e.chunk.css.map": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/css/main.17e6543e.chunk.css.map",
+    "static/css/main.7438f5b0.chunk.css.map": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/css/main.7438f5b0.chunk.css.map",
     "static/js/2.b0ad78db.chunk.js.LICENSE.txt": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/js/2.b0ad78db.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3e96dbc7.js",
     "static/css/2.03d7f783.chunk.css",
     "static/js/2.b0ad78db.chunk.js",
-    "static/css/main.17e6543e.chunk.css",
-    "static/js/main.99e1227c.chunk.js"
+    "static/css/main.7438f5b0.chunk.css",
+    "static/js/main.fb6e107e.chunk.js"
   ]
 }

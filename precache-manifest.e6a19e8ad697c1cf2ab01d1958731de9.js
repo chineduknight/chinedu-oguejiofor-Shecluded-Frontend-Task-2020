@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1bbb4305ede7aad21a1945a35a1c891f",
+    "revision": "3d8bd1fb91719a43282c75301d1f7e86",
     "url": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/css/2.03d7f783.chunk.css"
   },
   {
-    "revision": "d21f1e852802f042adf4",
-    "url": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/css/main.17e6543e.chunk.css"
+    "revision": "97434d773d273a58c6d3",
+    "url": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/css/main.7438f5b0.chunk.css"
   },
   {
     "revision": "20d09e520fd38ca7778d",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/js/2.b0ad78db.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d21f1e852802f042adf4",
-    "url": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/js/main.99e1227c.chunk.js"
+    "revision": "97434d773d273a58c6d3",
+    "url": "/chinedu-oguejiofor-Shecluded-Frontend-Task-2020/static/js/main.fb6e107e.chunk.js"
   },
   {
     "revision": "e323b15636f462498cf2",
